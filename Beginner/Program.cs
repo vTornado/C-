@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
+//testing 123 
 int age = 32;
 age = 33;
 long age1 = 9000L;
@@ -22,4 +22,6 @@ char letter = 'A';
 Console.WriteLine(letter);
 bool test5 = true;
 Console.WriteLine(test5);
+Console.ReadLine();
+Console.WriteLine("Hello World!");
 Console.ReadLine();
