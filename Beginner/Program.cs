@@ -1,5 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System.ComponentModel.Design;
 
 Console.Write("Whats your name? ");
 string name = Console.ReadLine();
