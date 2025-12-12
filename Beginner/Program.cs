@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
+/*
 Console.Write("Whats your name? ");
 string name = Console.ReadLine();
 Console.Write("How tall are you? ");
@@ -14,3 +14,15 @@ else
 {
     Console.WriteLine("No discount");
 }
+*/
+
+
+
+
+Console.Write("Enter a number: ");
+int count = Convert.ToInt32(Console.ReadLine());
+for (int i = 0; i < count; i++)
+{
+    Console.WriteLine($"Iteration {i + 1}");
+}
+
