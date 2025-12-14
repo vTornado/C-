@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
+/*
 Console.Write("Whats your name? ");
 string name = Console.ReadLine();
 Console.Write("How tall are you? ");
@@ -13,4 +13,16 @@ if (age <30 || height >170)
 else 
 {
     Console.WriteLine("No discount");
+}
+*/
+
+
+int Iteration = null;
+Console.WriteLine("Iteration: ");
+while (Iteration < 0)
+    
+{
+    int Iteration = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine(Iteration);
+    Console.WriteLine("Iteration: ");
 }
