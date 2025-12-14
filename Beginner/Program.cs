@@ -27,7 +27,7 @@ double total = 0D;
 int power = 0;
 while (loop >= 0)
 {
-    int x = Iteration[loop] - '0';
+    int x = int.Parse(Iteration[loop].ToString());
     total = x * Math.Pow(2D,Convert.ToDouble(power)) + total;
     power++;
     loop--;
