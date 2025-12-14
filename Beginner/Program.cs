@@ -18,11 +18,18 @@ else
 
 
 
+using System.Numerics;
 
-Console.Write("Enter a number: ");
-int count = Convert.ToInt32(Console.ReadLine());
-for (int i = 0; i < count; i++)
+Console.Write("Enter a binary number: ");
+String Iteration = Console.ReadLine();
+int loop = Iteration.Length-1;
+double total = 0D;
+int power = 0;
+while (loop >= 0)
 {
-    Console.WriteLine($"Iteration {i + 1}");
+    int x = Iteration[loop] - '0';
+    total = x * Math.Pow(2D,Convert.ToDouble(power)) + total;
+    power++;
+    loop--;
 }
-
+Console.WriteLine(total);
