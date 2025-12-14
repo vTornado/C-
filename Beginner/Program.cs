@@ -17,12 +17,12 @@ else
 */
 
 
-int Iteration = null;
-Console.WriteLine("Iteration: ");
-while (Iteration < 0)
-    
+
+
+Console.Write("Enter a number: ");
+int count = Convert.ToInt32(Console.ReadLine());
+for (int i = 0; i < count; i++)
 {
-    int Iteration = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine(Iteration);
-    Console.WriteLine("Iteration: ");
+    Console.WriteLine($"Iteration {i + 1}");
 }
+
